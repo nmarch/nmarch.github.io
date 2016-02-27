@@ -1,22 +1,156 @@
-/* Main Stylesheet */
+  @import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Molengo);
 
-/* Global Styling */
+/* FULLPAGE */
 
-html { 
-  background: #fff;
-}
 body {
-  background: #FFEFD8;
-  max-width: 50em;
+  background: url(https://raw.githubusercontent.com/nmarch/nmarch.github.io/master/img/Style%20Tile/linedpaper.png);
+}
+
+main {
+  text-align: center;
+  width: 95%;
+  max-width: 95%;
   margin: 0 auto;
-  
 }
 
-img { width: 50%;
-  
-  
+p {
+  font-family: 'Molengo', sans-serif;
 }
 
-/* Typography */
-/* Homepage */
-/* Resume */
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #454241;
+  font-size: 60px;
+  letter-spacing: 0.06em;
+}
+
+h2 {
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  color: #262524;
+  letter-spacing: 0.04em;
+}
+
+h3 {
+  font-family: 'Molengo', sans-serif;
+  color: #333130;
+  letter-spacing: 0.1em;
+}
+
+p a {
+  color: coral;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #FFBFB7;
+}
+
+
+/* NAVIGATION */
+
+#nav ul li {
+  display: inline-block;
+  margin: 40px;
+}
+
+ul li a {
+  font-size: 20px;
+  list-style-position: inside;
+  text-decoration: none;
+  color: coral;
+}
+
+ul li a:hover {
+  font-size: 20px;
+  list-style-position: inside;
+  text-decoration: none;
+  transition: color .5s;
+  color: #FFBFB7;
+  text-shadow: 0 0 5px #FFBFB7;
+}
+
+#nav nav {
+  text-align: center;
+  margin-bottom: 3%;
+  padding-top: 20px;
+  font-family: 'Molengo', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+
+/* BIO */
+
+#bio img {
+  height: 500px;
+}
+
+#bio p {
+  text-align: left;
+  width: 50%;
+  margin-left: 25%;
+}
+
+
+/* RESUME */
+
+#resume p {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#resume .skills {
+  text-align: left;
+}
+
+
+/* Footer */
+
+#footer nav {
+  float: right;
+  padding-right: 50px;
+  text-align: center;
+  margin-bottom: 3%;
+  padding-top: 25px;
+  font-family: 'Molengo', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+}
+
+#footer nav ul{
+  list-style-type: none;
+}
+
+#footer p {
+  font-family: 'Molengo', sans-serif;
+  color: coral;
+  letter-spacing: 0.05em;
+  float: left;
+  margin: 70px;
+}
+
+
+/*  MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 auto;
+    background: url(https://raw.githubusercontent.com/nmarch/nmarch.github.io/master/img/Style%20Tile/wall4.png);
+  }
+  
+  @media screen and (max-width: 420px) {
+  
+  body {
+    margin: 0 auto;
+    background: url(https://raw.githubusercontent.com/nmarch/nmarch.github.io/master/img/Style%20Tile/white_wall.png);
+  }
+  
+  
+  
