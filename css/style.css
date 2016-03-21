@@ -1,251 +1,245 @@
-          @import url(https://fonts.googleapis.com/css?family=Pacifico);
-      @import url(https://fonts.googleapis.com/css?family=Raleway);
-      @import url(https://fonts.googleapis.com/css?family=Cookie);
-      @import url(https://fonts.googleapis.com/css?family=Satisfy);
-      @import url(https://fonts.googleapis.com/css?family=Molengo);
-      /* FULLPAGE */
-      
-      body {
-        background: url(https://raw.githubusercontent.com/nmarch/nmarch.github.io/master/img/Style%20Tile/linedpaper.png);
-      }
-      
-      main {
-        text-align: center;
-        width: 95%;
-        max-width: 95%;
-        margin: 0 auto;
-      }
-      
-      p {
-        font-family: 'Molengo', sans-serif;
-      }
-      
-      h1 {
-        font-family: 'Pacifico', cursive;
-        color: #454241;
-        font-size: 60px;
-        letter-spacing: 0.06em;
-      }
-      
-      h2 {
-        font-family: 'Satisfy', cursive;
-        font-size: 30px;
-        color: #262524;
-        letter-spacing: 0.04em;
-      }
-      
-      h3 {
-        font-family: 'Molengo', sans-serif;
-        color: #333130;
-        letter-spacing: 0.1em;
-      }
-      
-      p a {
-        color: coral;
-        text-decoration: none;
-      }
-      
-      p a:hover {
-        color: #FFBFB7;
-      }
-      /* NAVIGATION */
-      
-      #nav ul li {
-        display: inline-block;
-        margin: 40px;
-      }
-      
-      ul li a {
-        font-size: 20px;
-        list-style-position: inside;
-        text-decoration: none;
-        color: coral;
-      }
-      
-      ul li a:hover {
-        font-size: 20px;
-        list-style-position: inside;
-        text-decoration: none;
-        transition: color .5s;
-        color: #FFBFB7;
-        text-shadow: 0 0 5px #FFBFB7;
-      }
-      
-      #nav nav {
-        text-align: center;
-        margin-bottom: 3%;
-        padding-top: 20px;
-        font-family: 'Molengo', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 0.5em;
-      }
-      /* BIO */
-      
-      #bio img {
-        height: 500px;
-      }
-      
-      #bio p {
-        text-align: left;
-        width: 50%;
-        margin-left: 25%;
-      }
-      /* RESUME */
-      
-      #resume p {
-        text-align: center;
-        width: 50%;
-        margin-left: 25%;
-      }
-      
-      #resume .skills {
-        text-align: left;
-      }
-
-      /* Portfolio */
-      
-#portfolio{
-  float: left;
-  
-}
-
-      #portfolio img {
-        display: inline;
-        margin: 50px;
-      }
-      
-      .lb {
-        display: none;
-        position: fixed!important;
-        z-index: 999;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: rgba(0, 0, 0, 0.9);
-        text-align: center;
-      }
-      
-      .lb img {
-        margin-top: 2%;
-        margin-bottom: 5%;
-      }
-      
-      #one.lb img {
-        min-width: 70%;
-      }
-      
-      #two.lb img {
-        max-width: 45%;
-      }
-      
-      #three.lb img {
-        max-width: 40%;
-      }
-      
-      #four.lb img {
-        max-width: 70%;
-      }
-      
-      #five.lb img {
-        max-width: 31%;
-      }
-      
-      #six.lb img {
-        max-width: 35%;
-      }
-      
-      #seven.lb img {
-        max-width: 35%;
-      }
-      
-      #eight.lb img {
-        max-width: 70%;
-      }
-      
-      #nine.lb img {
-        max-width: 50%;
-      }
-      
-      #ten.lb img {
-        max-width: 35%;
-      }
-      
-      .lb:target {
-        outline: none;
-        display: block;
-      }
-      
-      a.lb:hover {
-        cursor: default;
-      }
-      
-      img:hover {
-        cursor: pointer;
-      }
-      
-      h1 {
-        0 2px 0 #c9c9c9,
-        0 6px 1px rgba(0, 0, 0, .1),
-        0 0 5px rgba(0, 0, 0, .1),
-        0 1px 3px rgba(0, 0, 0, .3),
-        0 3px 5px rgba(0, 0, 0, .2),
-        0 5px 10px rgba(0, 0, 0, .25),
-        0 10px 10px rgba(0, 0, 0, .2),
-        0 20px 20px rgba(0, 0, 0, .15);
-      }
-
-
-
-/* Contact */
-#contact{
-  padding-bottom: 200px;
-  
-  
-}
-
-
-      /* Footer */
-      
-      footer {
-        padding-top: 5%;
-        clear: both;
-      }
-      
-      footer p {
-        float: left;
-        font-size: .8em;
-        font-family: 'Molengo', sans-serif;
-        color: coral;
-        letter-spacing: 0.05em;
-        padding-top: 50px;
-      }
-      
-      footer ul li {
-        display: inline;
-        padding-left: 6%;
-        padding-bottom: 50px;
-        padding-top: 50px;
-        position: relative;
-        font-family: 'Molengo', sans-serif;
-        color: coral;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        float: right;
-      }
-      
-      #footer nav ul {
-        list-style-type: none;
-      }
-      /*  MEDIA QUERY */
-      
-      @media screen and (max-width: 768px) {
-        body {
-          margin: 0 auto;
-          background: url(https://raw.githubusercontent.com/nmarch/nmarch.github.io/master/img/Style%20Tile/wall4.png);
-        }
-        @media screen and (max-width: 420px) {
+              @import url(https://fonts.googleapis.com/css?family=Pacifico);
+          @import url(https://fonts.googleapis.com/css?family=Raleway);
+          @import url(https://fonts.googleapis.com/css?family=Cookie);
+          @import url(https://fonts.googleapis.com/css?family=Satisfy);
+          @import url(https://fonts.googleapis.com/css?family=Molengo);
+          /* FULLPAGE */
+          
           body {
-            margin: 0 auto;
-            background: url(https://raw.githubusercontent.com/nmarch/nmarch.github.io/master/img/Style%20Tile/white_wall.png);
+            background: url(https://raw.githubusercontent.com/nmarch/nmarch.github.io/master/img/Style%20Tile/linedpaper.png);
           }
+          
+          main {
+            text-align: center;
+            width: 95%;
+            max-width: 95%;
+            margin: 0 auto;
+          }
+          
+          p {
+            font-family: 'Molengo', sans-serif;
+            font-size: 18px;
+          }
+          
+          h1 {
+            font-family: 'Pacifico', cursive;
+            color: #454241;
+            font-size: 65px;
+            letter-spacing: 0.06em;
+          }
+          
+          h2 {
+            font-family: 'Satisfy', cursive;
+            font-size: 40px;
+            color: #262524;
+            letter-spacing: 0.04em;
+          }
+          
+          h3 {
+            font-family: 'Molengo', sans-serif;
+            color: #333130;
+            letter-spacing: 0.1em;
+          }
+          
+          p a {
+            color: coral;
+            text-decoration: none;
+          }
+          
+          p a:hover {
+            color: #FFBFB7;
+          }
+          /* NAVIGATION */
+          
+          #nav ul li {
+            display: inline-block;
+            margin: 40px;
+          }
+          
+          ul li a {
+            font-size: 20px;
+            list-style-position: inside;
+            text-decoration: none;
+            color: coral;
+          }
+          
+          ul li a:hover {
+            font-size: 20px;
+            list-style-position: inside;
+            text-decoration: none;
+            transition: color .3s;
+            color: #FFBFB7;
+            text-shadow: 0 0 5px white;
+          }
+          
+          #nav nav {
+            text-align: center;
+            margin-bottom: 3%;
+            padding-top: 20px;
+            font-family: 'Molengo', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.5em;
+          }
+          /* BIO */
+          
+          #bio img {
+            height: 500px;
+          }
+          
+          #bio p {
+            text-align: left;
+            width: 50%;
+            margin-left: 25%;
+          }
+          /* RESUME */
+          
+          #resume p {
+            text-align: center;
+            width: 50%;
+            margin-left: 25%;
+          }
+          
+          #resume .skills {
+            text-align: left;
+          }
+          /* Portfolio */
+          
+          #portfolio {
+            padding-bottom: 400px;
+          }
+          
+          #portfolio img {
+            display: inline;
+            margin: 0 50px 50px 50px;
+          }
+          
+          .lb {
+            display: none;
+            position: fixed!important;
+            z-index: 999;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.9);
+            text-align: center;
+          }
+          
+          .lb img {
+            margin-top: 2%;
+            margin-bottom: 5%;
+          }
+          
+          #one.lb img {
+            min-width: 70%;
+          }
+          
+          #two.lb img {
+            max-width: 45%;
+          }
+          
+          #three.lb img {
+            max-width: 40%;
+          }
+          
+          #four.lb img {
+            max-width: 70%;
+          }
+          
+          #five.lb img {
+            max-width: 31%;
+          }
+          
+          #six.lb img {
+            max-width: 35%;
+          }
+          
+          #seven.lb img {
+            max-width: 35%;
+          }
+          
+          #eight.lb img {
+            max-width: 70%;
+          }
+          
+          #nine.lb img {
+            max-width: 50%;
+          }
+          
+          #ten.lb img {
+            max-width: 35%;
+          }
+          
+          .lb:target {
+            outline: none;
+            display: block;
+          }
+          
+          a.lb:hover {
+            cursor: default;
+          }
+          
+          img:hover {
+            cursor: pointer;
+          }
+          
+          h1 {
+            0 2px 0 #c9c9c9,
+            0 6px 1px rgba(0, 0, 0, .1),
+            0 0 5px rgba(0, 0, 0, .1),
+            0 1px 3px rgba(0, 0, 0, .3),
+            0 3px 5px rgba(0, 0, 0, .2),
+            0 5px 10px rgba(0, 0, 0, .25),
+            0 10px 10px rgba(0, 0, 0, .2),
+            0 20px 20px rgba(0, 0, 0, .15);
+          }
+          /* Contact */
+          
+          #contact {
+           min-width: 50%;
+            margin: 0 auto;
+          }
+          /* Footer */
+          
+          footer {
+            padding-top: 5%;
+            clear: both;
+          }
+          
+          footer p {
+            float: left;
+            font-size: .8em;
+            font-family: 'Molengo', sans-serif;
+            color: coral;
+            letter-spacing: 0.05em;
+            padding-top: 50px;
+          }
+          
+          footer ul li {
+            display: inline;
+            padding-left: 6%;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            position: relative;
+            font-family: 'Molengo', sans-serif;
+            color: coral;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            float: right;
+          }
+          
+          #footer nav ul {
+            list-style-type: none;
+          }
+          /*  MEDIA QUERY */
+          
+          @media screen and (max-width: 768px) {
+            body {
+              margin: 0 auto;
+              background: url(https://raw.githubusercontent.com/nmarch/nmarch.github.io/master/img/Style%20Tile/wall4.png);
+            }
+            @media screen and (max-width: 420px) {
+              body {
+                margin: 0 auto;
+                background: url(https://raw.githubusercontent.com/nmarch/nmarch.github.io/master/img/Style%20Tile/white_wall.png);
+              }
